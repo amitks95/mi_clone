@@ -1,0 +1,41 @@
+.videocard{
+    display: flex;
+    width: 33vmax;
+    height: 42.8vh;
+    justify-content: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin: 0.5vmax 12px;
+    cursor: pointer;
+}
+
+.videocard >a{
+    padding: 1vmax;
+    transition: all 0.3s;
+    border: none;
+    border-radius: 100%;
+    background-color: rgba(255,255,255,0.096);
+}
+.videocard>a>svg{
+    fill:white;
+}
+
+.videocard:hover a{
+    background-color: rgba(255,255,255,0.67);
+    padding: 1.5vmax;
+    border-radius: 100%;
+    border: none;
+    color: white;
+}
+.videocard:hover a>svg{
+    fill:orangered;
+    transform: scale(1.2);
+}
+.videocard p{
+    color: rgb(255, 255, 255);
+    margin: 1vmax;
+}
+.videocard:hover p{
+    color: orangered;
+}

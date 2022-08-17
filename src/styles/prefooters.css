@@ -1,0 +1,100 @@
+.prefooter{
+    margin: 5vmax 0 0 0;
+    background-color: white;
+    padding: 2vmax;
+    padding-bottom:0 ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.prefooter >div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: rgba(66,66,66,0.829);
+    cursor: pointer;
+}
+.prefooter>div:hover svg{
+    fill: rgb(86, 80, 80);
+}
+.prefooter>div:hover p{
+    color: rgb(19,18,18);
+}
+.prefooter span{
+    text-align: left;
+}
+.prefooter svg{
+    transform: scale(2) translateY(-0.2vmax);
+    margin: 2vmax;
+    fill: rgba(37,37,37,0.322);
+}
+
+
+/* ------------------------midfooter---------------------- */
+
+.midfooter{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 150px;
+    background-color: rgb(233, 233, 233);
+}
+.midfooter>div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.midfooter>div>p{
+    color: rgba(0,0,0,0.842);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vmax;
+    width: 18vmax;
+    margin: 0%;
+}
+.midfooter>div>span{
+    color: rgba(51,51,51,0.842);
+    width: 18vmax;
+    font-size: 1vmax;
+}
+.midfooter>div>div>input{
+    border: none;
+    outline: none;
+    padding: 0.5vmax 1vmax;
+    background-color: white;
+    font-size: 1vmax;
+    width: 21vmax;
+}
+.midfooter>div>div>button{
+    border: none;
+    padding: 0.5vmax;
+    background-color: white;
+}
+.midfooter>div>div{
+    border: 1px solid black;
+    background-color: white;
+}
+.midfooter>div:nth-child(2)>span{
+    width: 23vmax;
+}
+.midfooter>div:nth-child(3){
+    justify-content: center;
+    align-items: flex-end;
+}
+.midfooter>div:nth-child(3)>p{
+    width: 14vmax;
+}
+.midfooter>div:nth-child(3)>span{
+    width: 14vmax;
+}
+
+.midfooter>div:nth-child(4){
+    flex-direction: row;
+}
+.midfooter>div:nth-child(4)>svg{
+    cursor: pointer;
+    margin: 1vmax;
+    fill: rgba(138, 138, 138, 0.705);
+}
+.midfooter>div:nth-child(4)>svg:hover{
+    fill: rgb(86, 77, 77);
+    transform: scale(1.2);
+}
